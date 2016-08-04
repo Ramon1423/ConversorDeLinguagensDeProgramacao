@@ -1,0 +1,21 @@
+Program somar;
+
+uses crt;
+
+Var n1,n2,soma: integer;
+
+Begin
+
+ClrScr;
+Write('Numero 1:');
+Readln(n1);
+
+Write('Numero 2:');
+Readln(n2);
+
+soma:=(n1+n2);
+Writeln('Resultado:',soma,'oláááááááá');
+
+Readkey;
+
+End.

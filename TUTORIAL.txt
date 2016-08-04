@@ -1,0 +1,19 @@
+  >>>>>>>>>COMO UTILIZAR O CONVERSOR DE LINGUAGENS DE PROGRAMAÇÃO:<<<<<<<<<
+
+  1:Baixe o programa EASY PHP(qualquer versão)
+
+  2:Abra a pasta do EASY PHP(Aonde ele foi instalado),abra a pasta www, delete a pasta existente e
+substitua pela nova pasta 'my portable files' que você baixou.
+
+  3:Na pasta my portable files, ponha o seu código dentro do arquivo exemplo.txt 
+
+  4:Abra o EASY PHP, vá no menu dele e proucure por localweb
+
+  5:Ao clicar, irá aparecer o site do Conversor de Linguagens... Clique na imagem que converta para a 
+linguagem que deseja; por fim, o seu código estará convertido dentro do 'exemplo.txt'
+
+                   
+                         
+                                                                22-Ramon Moratori-22
+                                                                   
+                                                                   

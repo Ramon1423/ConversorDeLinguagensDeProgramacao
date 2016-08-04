@@ -1,0 +1,50 @@
+import java.util.Scanner
+
+
+public static void main(String[]args){ 
+              Scanner entrada = newScanner(System.in); 
+    
+    int num1;
+    int num2;
+    int simbolo;
+    int total;
+    
+    
+    System.out.printf("Digite o primeiro numero da conta:");
+    num1 = entrada.nextInt();
+    System.out.printf("\n\n");
+    
+    System.out.printf("Digite o segundo numero da conta:");
+    num2 = entrada.nextInt();
+    System.out.printf("\n\n");
+    System.out.printf("(1)adicao (2)subtracao \n(3)divisao (4)multiplicacao");
+    System.out.printf("\n");
+    System.out.printf("Digite a conta que deseja fazer:");
+    simbolo = entrada.nextInt();
+    
+    if(simbolo == 1){
+               total = num1 + num2;
+               System.out.printf("\n\n");
+               System.out.printf("O resultado obtido pela soma e:%i", total);
+}   
+    if(simbolo == 2){
+               total = num1 - num2;
+               System.out.printf("\n\n");
+               System.out.printf("O resultado obtido pela subtracao e:%i", total);
+}    
+    if(simbolo == 3){
+               total = num1 / num2;
+               System.out.printf("\n\n");
+               System.out.printf("O resultado obtido pela divisao e:%i", total);
+}    
+    if(simbolo == 4){
+               total = num1 * num2;
+               System.out.printf("\n\n");
+               System.out.printf("O resultado obtido pela multiplicacao e:%i", total);
+}    
+
+System.out.printf("\n\n");
+System.out.println("Press Enter to continue...");
+             System.in.read();
+System.exit(0);
+}           

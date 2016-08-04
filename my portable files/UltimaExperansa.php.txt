@@ -1,0 +1,10 @@
+<?php
+ $arquivo = "arquivo.txt";
+ $le_arquivo = fopen($arquivo, "r+");
+
+ $buffer = fread($le_arquivo, filesize($arquivo));
+ $novo_buffer = str_replace("Joao", "Palavra", $buffer);
+	fwrite($le_arquivo, $novo_buffer, strlen($novo_buffer) + 5);
+	fclose($le_arquivo);
+ 
+?>

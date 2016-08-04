@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Ramon Moratori</title>
+</head>
+<body>
+<?php
+    
+
+
+
+$n1; 
+$n2;
+$soma;
+
+
+
+echo "Numero 1:";
+$n1 = readline(" ");
+
+echo "Numero 2:";
+$n2 = readline(" ");
+soma= n1+n2;
+echo "Resulta:",soma,"oláááááááá";
+
+
+
+?>
+</body>
+</html>

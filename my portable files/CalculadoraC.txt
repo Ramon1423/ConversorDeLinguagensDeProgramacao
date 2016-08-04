@@ -1,0 +1,49 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <windows.h>
+
+int main(void){
+    
+    int num1;
+    int num2;
+    int simbolo;
+    int total;
+    
+    
+    printf("Digite o primeiro numero da conta:");
+    scanf("%i", &num1);
+    printf("\n\n");
+    
+    printf("Digite o segundo numero da conta:");
+    scanf("%i", &num2);
+    printf("\n\n");
+    printf("(1)adicao (2)subtracao \n(3)divisao (4)multiplicacao");
+    printf("\n");
+    printf("Digite a conta que deseja fazer:");
+    scanf("%i", &simbolo);
+    
+    if(simbolo == 1){
+               total = num1 + num2;
+               printf("\n\n");
+               printf("O resultado obtido pela soma e:%i", total);
+}   
+    if(simbolo == 2){
+               total = num1 - num2;
+               printf("\n\n");
+               printf("O resultado obtido pela subtracao e:%i", total);
+}    
+    if(simbolo == 3){
+               total = num1 / num2;
+               printf("\n\n");
+               printf("O resultado obtido pela divisao e:%i", total);
+}    
+    if(simbolo == 4){
+               total = num1 * num2;
+               printf("\n\n");
+               printf("O resultado obtido pela multiplicacao e:%i", total);
+}    
+
+printf("\n\n");
+system("PAUSE");
+return 0;
+}           

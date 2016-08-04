@@ -1,0 +1,11 @@
+valor1 = double.Parse(Console.ReadLine());
+scanf("%i", &valor1);
+
+if(txt = scanf ){
+
+double.Parse(Console.ReadLine()) = ("%i", &valor1);
+                                  delete isso
+
+double.Parse(Console.ReadLine()) = valor1);
+                                     sobrou ) <= isso
+
